@@ -1,0 +1,71 @@
+
+                    /*  Form Body  */
+
+
+#fheader
+{
+    min-width: 195px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #c4ffff;
+    padding: 0px 30px;
+    border-radius: 10px 10px 0 0;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    box-shadow: rgb(0 0 0 / 21%) 0px -15px 25px 0px inset, rgb(0 0 0 / 2%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 0%) 0px 8px 4px, rgb(0 0 0 / 0%) 0px 16px 8px, rgb(0 0 0 / 0%) 0px 2px 0;
+
+}
+.a
+{
+    min-width: 295px;
+    float: right;
+    box-sizing: border-box;
+    padding: 0 80px 0 0;
+}
+.b
+{
+    min-width: 300px;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 10 0 0;
+}
+
+#detaildiv
+{
+    height: 152px;
+    width: 288px;
+    float: left;
+    padding: 0 10 0 0;
+}
+#detail
+{
+    height: 110px;
+    width: 200px;
+    padding: 0 10px;
+    padding: 0 10px;
+    font-size: small;
+    border-radius: 6px;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    border: 1px solid lightgray;
+    
+}
+#fd4
+{
+    clear: both;
+    height: 60px;
+}
+
+#fd4 input
+{
+    margin: 15px 200 0px 0px;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    border-radius: 10px;
+    background-color: #8affff;
+    box-shadow: rgb(0 0 0 / 17%) 0px -15px 25px 0px inset, rgb(0 0 0 / 2%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 8%) 0px 2px 1px, rgb(0 0 0 / 5%) 0px 4px 2px, rgb(0 0 0 / 0%) 0px 8px 4px, rgb(0 0 0 / 0%) 0px 16px 8px, rgb(0 0 0 / 0%) 0px 2px 0;
+    text-align: center;
+}
+#fd4 input:hover
+{
+    background-color: #2ff5ff;
+}
+
+

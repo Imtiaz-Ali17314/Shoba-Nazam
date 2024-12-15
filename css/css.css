@@ -1,0 +1,385 @@
+
+                    /*  Interface  */
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wreaper
+{
+    
+    box-shadow: 2px 2px 4px 2px rgb(193 174 174);
+    width: 1200px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: rgb(0 0 0 / 21%) 0px -23px 25px 0px inset, rgb(0 0 0 / 2%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 0%) 0px 16px 8px, rgb(0 0 0 / 0%) 0px 2px 0px;
+    background-color: #ece9e9;
+
+   
+}
+
+                    /*  Header  */
+
+#header
+{
+   
+    background-color: #00f3ff;
+    height: 60px;
+    border-radius: 15px 15px 0 0;
+    box-shadow: rgb(0 0 0 / 21%) 0px -23px 25px 0px inset, rgb(0 0 0 / 2%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 0%) 0px 16px 8px, rgb(0 0 0 / 0%) 0px 2px 1px;
+    
+}
+h1{
+    margin: 0;
+    padding: 0px 100px;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    font-size: x-large;
+    font-weight: normal;
+}
+
+                    /*  Menu Bar  */
+
+#nav
+{
+    background-color: rgb(169, 238, 169); 
+    padding: 0 80px;
+}
+#nav ul
+{
+    margin: 0;
+    padding: 0;
+}
+#nav li
+{
+    display: inline-block;
+    margin-left: 20px;
+    
+    
+}
+#nav li a
+{
+    display: block;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 1px 1px 15px 1px #241c18;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    border-radius: 0 0 5px 5px;
+    
+}
+#nav li a:hover
+{
+    background-color: brown;
+    color: white;
+}
+
+                    /*  Body  */
+
+#body
+{
+    
+    width: 1050;
+    height: 500;
+    float: left;
+    padding: 60px 0 0 0 ;
+    box-sizing: border-box;
+
+
+    
+}
+
+                    /*  Form  */
+
+#d
+{
+    min-height: 300px;
+    max-width: 600px;
+    box-sizing: border-box;
+    background-color: rgb(236, 233, 233);
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 21%) 0px -15px 25px 0px inset, rgb(0 0 0 / 2%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -40px 40px 0px inset, rgb(0 0 0 / 7%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 0%) 0px 8px 4px, rgb(0 0 0 / 0%) 0px 16px 8px, rgb(0 0 0 / 0%) 0px 2px 0;
+
+    
+}
+
+
+#d form
+{
+    padding: 0;
+    margin: 0;
+   
+}
+#d ul
+{
+    padding: 0;
+    margin: 0;
+}
+
+#d input
+{
+    height: 35px;
+    width: 200px;
+    padding: 0 10px;
+    padding: 0 10px;
+    font-size: small;
+    border-radius: 6px;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    border: 1px solid lightgray;
+    text-align: right;
+   
+}
+#d span
+{
+    
+    min-height: 60px;
+    min-width: 195px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+}
+
+                    /*  Alert Boxes  */
+
+#msgbox
+{
+    border: 1px solid red;
+    display: block;
+    margin: 115px 150px 0px 0px;
+    padding: 5px 15;
+    display: none;
+    min-height: 70px;
+    min-width: 300px;
+    float: right;
+    border-radius: 10px;
+    position: fixed;
+    background-color: ghostwhite;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    font-size: small;
+    box-sizing: border-box;
+}
+#msgbox p
+{
+    margin: 0px;
+    float: left;
+    width: 218px;
+    font-size: larger;
+}
+#msgbox img
+{
+    height: 35px;
+    width: 30px;
+    margin:  6px 10px 0 10px; 
+}
+#alert
+{
+    border: 1px solid red;
+    display: block;
+    margin: 115px 150px 0px 0px;
+    padding: 5px 15;
+    display: none;
+    min-height: 70px;
+    min-width: 300px;
+    float: right;
+    border-radius: 10px;
+    position: fixed;
+    background-color: ghostwhite;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    font-size: small;
+    box-sizing: border-box;
+}
+#alert p
+{
+    margin: 0px;
+    float: left;
+    min-width: 218px;
+    font-size: larger;
+}
+#alert img
+{
+   margin:  6px 0 0 0; 
+}
+#alertbuttons
+{
+    min-height: 20px;
+    box-sizing: border-box;
+    clear: both;
+    text-align: end;
+}
+#alertbuttons input
+{
+    width: 50px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: rgba(108, 160, 249, 0.849);
+    border: 1px solid #00ffc4;
+    border-radius: 8px;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    font-size: small;
+   
+    padding: 0 6px 35px 6px;
+    
+}
+#alertbuttons input:hover
+{
+    background-color: rgb(80, 141, 247);
+}
+
+                    /*  Form Body  */
+
+#d0
+{
+    min-width: 195px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #c4ffff;
+    padding: 0px 30px;
+    border-radius: 10px 10px 0 0;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    box-shadow: rgb(0 0 0 / 21%) 0px -15px 25px 0px inset, rgb(0 0 0 / 2%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 0%) 0px 8px 4px, rgb(0 0 0 / 0%) 0px 16px 8px, rgb(0 0 0 / 0%) 0px 2px 0;
+
+}
+#d1
+{
+    float: left;
+    width: 295px;
+    height: 150px; 
+    padding: 0; 
+}
+#d1 ul
+{
+    margin-left: 90px;
+}
+.select
+{
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    width: 200px;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    padding: 0 10px
+}
+#d2
+{
+    float: right;
+    min-width: 300px;
+    min-height: 130px;
+    box-sizing: border-box;
+    padding:0 80px 0 0 ;
+}
+#d2 textarea
+{
+    width: 200px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    height: 50;
+    font-size: large;
+}
+
+#d3 
+{
+    min-width: 200px;
+    min-height: 60px;
+    box-sizing: border-box;
+    clear: both; 
+
+}
+#d3 input
+{
+    margin: 40px 200 0px 0px;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    border-radius: 10px;
+    background-color: #8affff;
+    box-shadow: rgb(0 0 0 / 17%) 0px -15px 25px 0px inset, rgb(0 0 0 / 2%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 8%) 0px 2px 1px, rgb(0 0 0 / 5%) 0px 4px 2px, rgb(0 0 0 / 0%) 0px 8px 4px, rgb(0 0 0 / 0%) 0px 16px 8px, rgb(0 0 0 / 0%) 0px 2px 0;
+
+}
+#d3 input:hover
+{
+    
+    background-color: #2ff5ff;
+}
+                    /*  Side Bar   */
+
+#sidebar
+{
+    background-color: rgb(95 253 253 / 18%);
+    width: 150px;
+    min-height: 500;
+    float: right;
+    box-shadow: rgb(0 0 0 / 21%) 0px -10px 25px 0px inset, rgb(0 0 0 / 2%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 0%) 0px 16px 8px, rgb(0 0 0 / 0%) 0px 2px 1px;
+    border-radius: 50px 0 0 50px;
+}
+#sidebar ul
+{
+    padding: 10px 0;
+    margin: 0;
+}
+#sidebar a
+{
+    display: block;
+    min-height: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    box-sizing: border-box;
+    border-radius: 50px 0px;
+}
+#sidebar a:hover
+{
+  
+  box-shadow: rgb(0 0 0 / 10%) 0px -20px 40px 0px inset, rgb(0 0 0 / 0%) 0px -36px 30px 0px inset, rgb(0 0 0 / 0%) 0px -79px 40px 0px inset, rgb(0 0 0 / 0%) 0px 2px 1px, rgb(0 0 0 / 0%) 0px 4px 2px, rgb(0 0 0 / 0%) 0px 8px 4px, rgb(0 0 0 / 0%) 0px 16px 8px, rgb(0 0 0 / 0%) 0px 32px 16px;
+}
+
+                    /*  Footer  */ 
+
+#footer
+{
+
+    background-color: #00f3ff;
+    padding: 0px 20px;
+    border-radius: 0 0 15px 15px;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    text-align: end;
+    font-size: xx-large;
+    clear: both;
+    height: 31px;
+    box-shadow: rgb(0 0 0 / 16%) 0px -23px 30px 0px inset, rgb(0 0 0 / 21%) 0px -36px 40px 0px inset, rgb(0 0 0 / 10%) 1px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 0%) 0px 16px 8px, rgb(0 0 0 / 0%) 0px 2px 1px;
+}
+#Jlogo
+{
+    height: 100;
+    margin-top: 180;
+    margin-left: 22;  
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1199px) and (min-width: 1015px)
+{
+    #wreaper
+    {
+        width: 1015px;  
+    }
+    #body
+    {
+        width: 905px;
+    }
+    #sidebar
+    {
+        width: 110px;
+    }
+    #Jlogo
+    {
+        height: 90;
+        margin-left: 18;
+        margin-top: 210;
+    }
+}

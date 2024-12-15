@@ -1,0 +1,113 @@
+body
+{
+    background-image: url(../images/artificial-intelligence-g52394a056_1920.jpg);
+    background-size: cover;
+}
+.msgbox
+{
+    float: left;
+    height: 50px;
+    width: 550px;
+    margin-top: 250px;
+    margin-left: 150px;
+    
+}
+.msgtxt
+{
+    float: left;
+    height: 40px;
+    width: 505px;
+    margin-top: 10px; 
+    font-size: larger;
+    font-family: fantasy;
+    color: rgb(100, 245, 230);
+   
+}
+
+.msgicon
+{
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/chat.png);
+    background-size: contain; 
+}
+.tableinterface
+{
+    border: 1px solid rgb(250, 134, 240);
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    background-image: url(../images/1900901.jpg);
+    background-size: 100%;
+    box-sizing: border-box;
+    box-shadow: 6px 6px 4px 2px  rgba(119, 107, 107, 0.884);
+    margin: 150px 0px 0px 500px;
+    
+
+}
+
+.tittle
+{
+    height: 50px;
+    width: 100%;
+    border:none;
+    text-align:center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(238, 101, 226);
+    background: none;
+}
+.tittletext
+{
+    font-style: italic;
+    color:rgb(44, 238, 18);
+    font-family: fantasy;
+    font-size: x-large;
+}
+.form
+{
+    border:none;
+    background: none;
+    float: left;
+    width: 99%;
+    height: 246px;
+   
+    
+    
+}
+.table
+{
+    border:none;
+    background: none;
+    float: left;
+    width: 99%;
+    height: 246px;
+   
+}
+.txtbox
+{
+    background-color: whitesmoke;
+    font-size: larger;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    width: 97%;
+    height: 50px;
+    margin-left: 3%;
+   
+}
+.submit
+{
+    font-size: x-large;
+    border-radius: 100px;
+    background-color: rgb(62, 197, 62);
+    width: 21.6%;
+    width: 34%;
+    height: 50px;
+    margin-left: 34%;
+    border: none;
+
+   
+}
+

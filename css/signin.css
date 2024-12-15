@@ -1,0 +1,123 @@
+#interface
+{
+    height: 550px;
+    width: 35%;
+    margin: 2% 30%;
+    border-radius: 15px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+
+}
+#body
+{
+    margin: 25px 0 0 0;
+}
+#body input
+{
+    margin: 7% 0% 0 12%;
+    height: 50px;
+    width: 75%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: large;
+    box-shadow: rgb(147 147 147 / 25%) 0px 30px 60px -12px inset, rgb(165 160 160 / 26%) 0px 18px 36px -18px inset;
+    border: none;
+    font-family: system-ui;
+    outline: none;
+}
+#form
+{
+    margin: 0;
+}
+#tittle
+{
+    height: 25%;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    padding-top: 9%;
+    box-sizing: border-box;
+    background-color: skyblue;
+    color: white;
+}
+#tittletext
+{
+    font-size: xxx-large;
+    font-family: cursive;
+}
+.submit
+{
+  
+    box-shadow: rgb(0 0 0 / 15%) 0px 15px 25px, rgb(0 0 0 / 5%) 0px 5px 10px;
+    background-color: #63c8f1;
+    color: white;
+    font-family: system-ui;
+}
+
+.submit:hover
+{
+    background-color: #18bbfc; 
+}
+#addtittletext
+{
+    font-size: xx-large;
+    font-family: cursive;
+}
+#classdiv
+{
+    box-sizing: border-box;
+    padding-left: 0%;
+    text-align: center;
+    padding-bottom: 15;
+    margin-bottom: 20px;
+}
+#subbtn
+{
+    box-sizing: border-box;
+    padding-left: 0%;
+    text-align: center;
+}
+#namecode
+{
+    padding-top: 15;
+}
+#userdata
+{
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    
+}
+#msgbox
+{
+    border: 1px solid #00a1ff;
+    margin: 7% 0% 0% 15%;
+    padding: 5px 10;
+    width: 69%;
+    float: left;
+    border-radius: 10px;
+    position: relative;
+    background-color: ghostwhite;
+    box-sizing: border-box;
+}
+#msgbox p
+{
+    margin: 5px 0 0 0;
+    float: right;
+    width: 250px;
+}
+#msgbox img
+{
+    height: 30;
+    width: 30;
+   
+}
+#sign
+{
+    box-sizing: border-box;
+    float: left;
+    margin: 25px 0 0 10;
+}
+#error
+{
+    color: red;
+    text-align: center;
+    display: none;
+}
